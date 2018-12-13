@@ -11,6 +11,7 @@ int main()
     printf("Ingresa una frase: \n");
     gets(frase);
 
+    //strlen - longitud de la cadena
     for(int i = 0, j = 0; i <= strlen(frase); i++)
     {
         if(i == strlen(frase))

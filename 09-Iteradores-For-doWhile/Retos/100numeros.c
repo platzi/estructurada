@@ -8,7 +8,9 @@ int main()
     do
     {
         numeroActual++;
-        printf("%i \n", numeroActual);
+
+        if(numeroActual%2 == 0)
+            printf("%i \n", numeroActual);
 
     }while(numeroActual < 100);
 

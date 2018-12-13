@@ -1,21 +1,21 @@
 #include<stdio.h>
 
-void evaluar(char nombre[], float cal)
-{
-    if(cal >= 7.0)
-        printf("El alumno %s ha sido aprobado. \n\n", nombre);
-    else
-        printf("El alumno %s ha sido reprobado. \n\n", nombre);
+char nombreAlumno[50];
+float calif;
 
+void evaluar()
+{
+    if(calif >= 7.0)
+        printf("El alumno %s ha sido aprobado. \n\n", nombreAlumno);
+    else
+        printf("El alumno %s ha sido reprobado. \n\n", nombreAlumno);
 }
 
 int main()
 {
     printf("Calificacion.\n\n");
-    char nombreAlumno[50];
-    float calif;
-
     printf("Ingresa el nombre: ");
+
     gets(nombreAlumno);
 
     printf("Ingresa la calificacion: ");

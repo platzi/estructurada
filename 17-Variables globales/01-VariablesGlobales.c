@@ -12,7 +12,7 @@ void comprobar()
     //Provoca error, no puede compilar porque no encuentra la variable: textoPrivado.
     //Hay que coomentar la linea para que el programa compile.
     printf("Variable local: ");
-    //puts(textoPrivado);
+//    puts(textoPrivado);
 }
 
 int main()

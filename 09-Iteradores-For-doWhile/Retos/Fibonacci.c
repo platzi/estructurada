@@ -12,16 +12,12 @@ int main()
 
     for(int i = 1; i < limite; i++)
     {
-
         actual = anterior + siguiente;
         anterior = siguiente;
         siguiente = actual;
 
         printf("\n%i", actual);
     }
-
-
-
 
     return 0;
 }

@@ -20,7 +20,7 @@ int main()
     scanf("%f", &flotanteA);
 
     printf("Ingresa el valor de caracterA es: ");
-    //%c: para leer un char.
+    //%c: para leer un char. El espacio es importante para que lo lea bien
     scanf(" %c", &caracterA);
 
     printf("\n\n");
